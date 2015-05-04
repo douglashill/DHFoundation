@@ -1,5 +1,5 @@
 // Douglas Hill, April 2015
-// https://github.com/douglashill/DHUtilities
+// https://github.com/douglashill/DHFoundation
 
 typedef id __nullable (^DHIndexToObjectMap)(NSUInteger idx);
 typedef id __nullable (^DHObjectMap)(id __nonnull object);

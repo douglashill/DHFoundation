@@ -1,6 +1,6 @@
-# DHUtilities #
+# DHFoundation #
 
-Objective-C classes and categories that are not associated with a full project.
+Objective-C utilities to complement Apple’s Foundation framework.
 
 ## Licence ##
 

@@ -1,5 +1,5 @@
 // Douglas Hill, February 2014
-// https://github.com/douglashill/DHUtilities
+// https://github.com/douglashill/DHFoundation
 
 @import Foundation;
 
