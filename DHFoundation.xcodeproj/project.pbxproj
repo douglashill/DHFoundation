@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50B1E381AF8D453004893C4 /* DHFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50B1E2D1AF8D453004893C4 /* DHFoundation.framework */; };
+		A50B1E561AF8D46B004893C4 /* DHFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50B1E4B1AF8D46B004893C4 /* DHFoundation.framework */; };
+		A50B1E641AF8D515004893C4 /* DHFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D318B1AF83637000624AD /* DHFoundationTests.m */; };
+		A50B1E651AF8D516004893C4 /* DHFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D318B1AF83637000624AD /* DHFoundationTests.m */; };
+		A50B1E661AF8D653004893C4 /* DHCompositeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31BF1AF83975000624AD /* DHCompositeTransformer.m */; };
+		A50B1E671AF8D653004893C4 /* DHFormatterTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31C21AF83975000624AD /* DHFormatterTransformer.m */; };
+		A50B1E681AF8D653004893C4 /* DHStringToUTF8DataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31C71AF83975000624AD /* DHStringToUTF8DataTransformer.m */; };
+		A50B1E691AF8D654004893C4 /* DHCompositeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31BF1AF83975000624AD /* DHCompositeTransformer.m */; };
+		A50B1E6A1AF8D654004893C4 /* DHFormatterTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31C21AF83975000624AD /* DHFormatterTransformer.m */; };
+		A50B1E6B1AF8D654004893C4 /* DHStringToUTF8DataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31C71AF83975000624AD /* DHStringToUTF8DataTransformer.m */; };
+		A50B1E6C1AF8D65D004893C4 /* NSArray+DHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31C91AF83975000624AD /* NSArray+DHAdditions.m */; };
+		A50B1E6D1AF8D65D004893C4 /* NSArray+DHFold.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31CB1AF83975000624AD /* NSArray+DHFold.m */; };
+		A50B1E6E1AF8D65D004893C4 /* NSDictionary+DHJSONReading.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31CD1AF83975000624AD /* NSDictionary+DHJSONReading.m */; };
+		A50B1E6F1AF8D65D004893C4 /* NSSet+DHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31CF1AF83975000624AD /* NSSet+DHAdditions.m */; };
+		A50B1E701AF8D65E004893C4 /* NSArray+DHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31C91AF83975000624AD /* NSArray+DHAdditions.m */; };
+		A50B1E711AF8D65E004893C4 /* NSArray+DHFold.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31CB1AF83975000624AD /* NSArray+DHFold.m */; };
+		A50B1E721AF8D65E004893C4 /* NSDictionary+DHJSONReading.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31CD1AF83975000624AD /* NSDictionary+DHJSONReading.m */; };
+		A50B1E731AF8D65E004893C4 /* NSSet+DHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D31CF1AF83975000624AD /* NSSet+DHAdditions.m */; };
+		A50B1E751AF8D725004893C4 /* DHFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C31AF83975000624AD /* DHFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E761AF8D725004893C4 /* DHExceptionCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C01AF83975000624AD /* DHExceptionCreation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E771AF8D725004893C4 /* DHIntegerConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C41AF83975000624AD /* DHIntegerConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E781AF8D725004893C4 /* DHMap.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C51AF83975000624AD /* DHMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E791AF8D725004893C4 /* NSArray+DHAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C81AF83975000624AD /* NSArray+DHAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E7A1AF8D725004893C4 /* NSArray+DHFold.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31CA1AF83975000624AD /* NSArray+DHFold.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E7B1AF8D725004893C4 /* NSDictionary+DHJSONReading.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31CC1AF83975000624AD /* NSDictionary+DHJSONReading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E7C1AF8D725004893C4 /* NSSet+DHAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31CE1AF83975000624AD /* NSSet+DHAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E7D1AF8D725004893C4 /* DHCompositeTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31BE1AF83975000624AD /* DHCompositeTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E7E1AF8D725004893C4 /* DHFormatterTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C11AF83975000624AD /* DHFormatterTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E7F1AF8D725004893C4 /* DHStringToUTF8DataTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C61AF83975000624AD /* DHStringToUTF8DataTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E801AF8D742004893C4 /* DHFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C31AF83975000624AD /* DHFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E811AF8D742004893C4 /* DHExceptionCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C01AF83975000624AD /* DHExceptionCreation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E821AF8D742004893C4 /* DHIntegerConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C41AF83975000624AD /* DHIntegerConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E831AF8D742004893C4 /* DHMap.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C51AF83975000624AD /* DHMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E841AF8D742004893C4 /* NSArray+DHAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C81AF83975000624AD /* NSArray+DHAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E851AF8D742004893C4 /* NSArray+DHFold.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31CA1AF83975000624AD /* NSArray+DHFold.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E861AF8D742004893C4 /* NSDictionary+DHJSONReading.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31CC1AF83975000624AD /* NSDictionary+DHJSONReading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E871AF8D742004893C4 /* NSSet+DHAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31CE1AF83975000624AD /* NSSet+DHAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E881AF8D742004893C4 /* DHCompositeTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31BE1AF83975000624AD /* DHCompositeTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E891AF8D742004893C4 /* DHFormatterTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C11AF83975000624AD /* DHFormatterTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50B1E8A1AF8D742004893C4 /* DHStringToUTF8DataTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A51D31C61AF83975000624AD /* DHStringToUTF8DataTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50B1E391AF8D453004893C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51D31701AF83637000624AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50B1E2C1AF8D453004893C4;
+			remoteInfo = "DHFoundation OS X";
+		};
+		A50B1E571AF8D46B004893C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51D31701AF83637000624AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50B1E4A1AF8D46B004893C4;
+			remoteInfo = "DHFoundation iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A50B1E2D1AF8D453004893C4 /* DHFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B1E371AF8D453004893C4 /* DHFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B1E4B1AF8D46B004893C4 /* DHFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B1E551AF8D46B004893C4 /* DHFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51D318A1AF83637000624AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51D318B1AF83637000624AD /* DHFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHFoundationTests.m; sourceTree = "<group>"; };
+		A51D31BC1AF83975000624AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51D31BE1AF83975000624AD /* DHCompositeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCompositeTransformer.h; sourceTree = "<group>"; };
+		A51D31BF1AF83975000624AD /* DHCompositeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCompositeTransformer.m; sourceTree = "<group>"; };
+		A51D31C01AF83975000624AD /* DHExceptionCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHExceptionCreation.h; sourceTree = "<group>"; };
+		A51D31C11AF83975000624AD /* DHFormatterTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFormatterTransformer.h; sourceTree = "<group>"; };
+		A51D31C21AF83975000624AD /* DHFormatterTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFormatterTransformer.m; sourceTree = "<group>"; };
+		A51D31C31AF83975000624AD /* DHFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFoundation.h; sourceTree = "<group>"; };
+		A51D31C41AF83975000624AD /* DHIntegerConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHIntegerConversion.h; sourceTree = "<group>"; };
+		A51D31C51AF83975000624AD /* DHMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMap.h; sourceTree = "<group>"; };
+		A51D31C61AF83975000624AD /* DHStringToUTF8DataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHStringToUTF8DataTransformer.h; sourceTree = "<group>"; };
+		A51D31C71AF83975000624AD /* DHStringToUTF8DataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHStringToUTF8DataTransformer.m; sourceTree = "<group>"; };
+		A51D31C81AF83975000624AD /* NSArray+DHAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DHAdditions.h"; sourceTree = "<group>"; };
+		A51D31C91AF83975000624AD /* NSArray+DHAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DHAdditions.m"; sourceTree = "<group>"; };
+		A51D31CA1AF83975000624AD /* NSArray+DHFold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DHFold.h"; sourceTree = "<group>"; };
+		A51D31CB1AF83975000624AD /* NSArray+DHFold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DHFold.m"; sourceTree = "<group>"; };
+		A51D31CC1AF83975000624AD /* NSDictionary+DHJSONReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DHJSONReading.h"; sourceTree = "<group>"; };
+		A51D31CD1AF83975000624AD /* NSDictionary+DHJSONReading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DHJSONReading.m"; sourceTree = "<group>"; };
+		A51D31CE1AF83975000624AD /* NSSet+DHAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+DHAdditions.h"; sourceTree = "<group>"; };
+		A51D31CF1AF83975000624AD /* NSSet+DHAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+DHAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50B1E291AF8D453004893C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E341AF8D453004893C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B1E381AF8D453004893C4 /* DHFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E471AF8D46B004893C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E521AF8D46B004893C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B1E561AF8D46B004893C4 /* DHFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A51D316F1AF83637000624AD = {
+			isa = PBXGroup;
+			children = (
+				A51D31BD1AF83975000624AD /* Source */,
+				A51D31BB1AF83975000624AD /* Resources */,
+				A51D31881AF83637000624AD /* Tests */,
+				A51D317A1AF83637000624AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A51D317A1AF83637000624AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50B1E2D1AF8D453004893C4 /* DHFoundation.framework */,
+				A50B1E371AF8D453004893C4 /* DHFoundationTests.xctest */,
+				A50B1E4B1AF8D46B004893C4 /* DHFoundation.framework */,
+				A50B1E551AF8D46B004893C4 /* DHFoundationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51D31881AF83637000624AD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A51D318B1AF83637000624AD /* DHFoundationTests.m */,
+				A51D318A1AF83637000624AD /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A51D31BB1AF83975000624AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A51D31BC1AF83975000624AD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A51D31BD1AF83975000624AD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A51D31C31AF83975000624AD /* DHFoundation.h */,
+				A51D31C01AF83975000624AD /* DHExceptionCreation.h */,
+				A51D31C41AF83975000624AD /* DHIntegerConversion.h */,
+				A51D31C51AF83975000624AD /* DHMap.h */,
+				A51D31C81AF83975000624AD /* NSArray+DHAdditions.h */,
+				A51D31C91AF83975000624AD /* NSArray+DHAdditions.m */,
+				A51D31CA1AF83975000624AD /* NSArray+DHFold.h */,
+				A51D31CB1AF83975000624AD /* NSArray+DHFold.m */,
+				A51D31CC1AF83975000624AD /* NSDictionary+DHJSONReading.h */,
+				A51D31CD1AF83975000624AD /* NSDictionary+DHJSONReading.m */,
+				A51D31CE1AF83975000624AD /* NSSet+DHAdditions.h */,
+				A51D31CF1AF83975000624AD /* NSSet+DHAdditions.m */,
+				A51D31E31AF83A14000624AD /* Transformers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A51D31E31AF83A14000624AD /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				A51D31BE1AF83975000624AD /* DHCompositeTransformer.h */,
+				A51D31BF1AF83975000624AD /* DHCompositeTransformer.m */,
+				A51D31C11AF83975000624AD /* DHFormatterTransformer.h */,
+				A51D31C21AF83975000624AD /* DHFormatterTransformer.m */,
+				A51D31C61AF83975000624AD /* DHStringToUTF8DataTransformer.h */,
+				A51D31C71AF83975000624AD /* DHStringToUTF8DataTransformer.m */,
+			);
+			path = Transformers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A50B1E2A1AF8D453004893C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B1E751AF8D725004893C4 /* DHFoundation.h in Headers */,
+				A50B1E761AF8D725004893C4 /* DHExceptionCreation.h in Headers */,
+				A50B1E771AF8D725004893C4 /* DHIntegerConversion.h in Headers */,
+				A50B1E781AF8D725004893C4 /* DHMap.h in Headers */,
+				A50B1E791AF8D725004893C4 /* NSArray+DHAdditions.h in Headers */,
+				A50B1E7A1AF8D725004893C4 /* NSArray+DHFold.h in Headers */,
+				A50B1E7B1AF8D725004893C4 /* NSDictionary+DHJSONReading.h in Headers */,
+				A50B1E7C1AF8D725004893C4 /* NSSet+DHAdditions.h in Headers */,
+				A50B1E7D1AF8D725004893C4 /* DHCompositeTransformer.h in Headers */,
+				A50B1E7E1AF8D725004893C4 /* DHFormatterTransformer.h in Headers */,
+				A50B1E7F1AF8D725004893C4 /* DHStringToUTF8DataTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E481AF8D46B004893C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B1E801AF8D742004893C4 /* DHFoundation.h in Headers */,
+				A50B1E811AF8D742004893C4 /* DHExceptionCreation.h in Headers */,
+				A50B1E821AF8D742004893C4 /* DHIntegerConversion.h in Headers */,
+				A50B1E831AF8D742004893C4 /* DHMap.h in Headers */,
+				A50B1E841AF8D742004893C4 /* NSArray+DHAdditions.h in Headers */,
+				A50B1E851AF8D742004893C4 /* NSArray+DHFold.h in Headers */,
+				A50B1E861AF8D742004893C4 /* NSDictionary+DHJSONReading.h in Headers */,
+				A50B1E871AF8D742004893C4 /* NSSet+DHAdditions.h in Headers */,
+				A50B1E881AF8D742004893C4 /* DHCompositeTransformer.h in Headers */,
+				A50B1E891AF8D742004893C4 /* DHFormatterTransformer.h in Headers */,
+				A50B1E8A1AF8D742004893C4 /* DHStringToUTF8DataTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A50B1E2C1AF8D453004893C4 /* DHFoundation OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B1E401AF8D453004893C4 /* Build configuration list for PBXNativeTarget "DHFoundation OS X" */;
+			buildPhases = (
+				A50B1E281AF8D453004893C4 /* Sources */,
+				A50B1E291AF8D453004893C4 /* Frameworks */,
+				A50B1E2A1AF8D453004893C4 /* Headers */,
+				A50B1E2B1AF8D453004893C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DHFoundation OS X";
+			productName = "DHFoundation OS X";
+			productReference = A50B1E2D1AF8D453004893C4 /* DHFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A50B1E361AF8D453004893C4 /* DHFoundation OS X Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B1E431AF8D453004893C4 /* Build configuration list for PBXNativeTarget "DHFoundation OS X Tests" */;
+			buildPhases = (
+				A50B1E331AF8D453004893C4 /* Sources */,
+				A50B1E341AF8D453004893C4 /* Frameworks */,
+				A50B1E351AF8D453004893C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50B1E3A1AF8D453004893C4 /* PBXTargetDependency */,
+			);
+			name = "DHFoundation OS X Tests";
+			productName = "DHFoundation OS XTests";
+			productReference = A50B1E371AF8D453004893C4 /* DHFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A50B1E4A1AF8D46B004893C4 /* DHFoundation iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B1E5E1AF8D46B004893C4 /* Build configuration list for PBXNativeTarget "DHFoundation iOS" */;
+			buildPhases = (
+				A50B1E461AF8D46B004893C4 /* Sources */,
+				A50B1E471AF8D46B004893C4 /* Frameworks */,
+				A50B1E481AF8D46B004893C4 /* Headers */,
+				A50B1E491AF8D46B004893C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DHFoundation iOS";
+			productName = "DHFoundation iOS";
+			productReference = A50B1E4B1AF8D46B004893C4 /* DHFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A50B1E541AF8D46B004893C4 /* DHFoundation iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B1E611AF8D46B004893C4 /* Build configuration list for PBXNativeTarget "DHFoundation iOS Tests" */;
+			buildPhases = (
+				A50B1E511AF8D46B004893C4 /* Sources */,
+				A50B1E521AF8D46B004893C4 /* Frameworks */,
+				A50B1E531AF8D46B004893C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50B1E581AF8D46B004893C4 /* PBXTargetDependency */,
+			);
+			name = "DHFoundation iOS Tests";
+			productName = "DHFoundation iOSTests";
+			productReference = A50B1E551AF8D46B004893C4 /* DHFoundationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51D31701AF83637000624AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Douglas Hill";
+				TargetAttributes = {
+					A50B1E2C1AF8D453004893C4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A50B1E361AF8D453004893C4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A50B1E4A1AF8D46B004893C4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A50B1E541AF8D46B004893C4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = A51D31731AF83637000624AD /* Build configuration list for PBXProject "DHFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A51D316F1AF83637000624AD;
+			productRefGroup = A51D317A1AF83637000624AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50B1E2C1AF8D453004893C4 /* DHFoundation OS X */,
+				A50B1E361AF8D453004893C4 /* DHFoundation OS X Tests */,
+				A50B1E4A1AF8D46B004893C4 /* DHFoundation iOS */,
+				A50B1E541AF8D46B004893C4 /* DHFoundation iOS Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50B1E2B1AF8D453004893C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E351AF8D453004893C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E491AF8D46B004893C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E531AF8D46B004893C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50B1E281AF8D453004893C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B1E6D1AF8D65D004893C4 /* NSArray+DHFold.m in Sources */,
+				A50B1E6F1AF8D65D004893C4 /* NSSet+DHAdditions.m in Sources */,
+				A50B1E671AF8D653004893C4 /* DHFormatterTransformer.m in Sources */,
+				A50B1E661AF8D653004893C4 /* DHCompositeTransformer.m in Sources */,
+				A50B1E6E1AF8D65D004893C4 /* NSDictionary+DHJSONReading.m in Sources */,
+				A50B1E6C1AF8D65D004893C4 /* NSArray+DHAdditions.m in Sources */,
+				A50B1E681AF8D653004893C4 /* DHStringToUTF8DataTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E331AF8D453004893C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B1E651AF8D516004893C4 /* DHFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E461AF8D46B004893C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B1E711AF8D65E004893C4 /* NSArray+DHFold.m in Sources */,
+				A50B1E731AF8D65E004893C4 /* NSSet+DHAdditions.m in Sources */,
+				A50B1E6A1AF8D654004893C4 /* DHFormatterTransformer.m in Sources */,
+				A50B1E691AF8D654004893C4 /* DHCompositeTransformer.m in Sources */,
+				A50B1E721AF8D65E004893C4 /* NSDictionary+DHJSONReading.m in Sources */,
+				A50B1E701AF8D65E004893C4 /* NSArray+DHAdditions.m in Sources */,
+				A50B1E6B1AF8D654004893C4 /* DHStringToUTF8DataTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B1E511AF8D46B004893C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B1E641AF8D515004893C4 /* DHFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50B1E3A1AF8D453004893C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50B1E2C1AF8D453004893C4 /* DHFoundation OS X */;
+			targetProxy = A50B1E391AF8D453004893C4 /* PBXContainerItemProxy */;
+		};
+		A50B1E581AF8D46B004893C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50B1E4A1AF8D46B004893C4 /* DHFoundation iOS */;
+			targetProxy = A50B1E571AF8D46B004893C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A50B1E411AF8D453004893C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = DHFoundation;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A50B1E421AF8D453004893C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = DHFoundation;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A50B1E441AF8D453004893C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = DHFoundationTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A50B1E451AF8D453004893C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = DHFoundationTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A50B1E5F1AF8D46B004893C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = DHFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50B1E601AF8D46B004893C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = DHFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50B1E621AF8D46B004893C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = DHFoundationTests;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A50B1E631AF8D46B004893C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = DHFoundationTests;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51D318D1AF83637000624AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A51D318E1AF83637000624AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50B1E401AF8D453004893C4 /* Build configuration list for PBXNativeTarget "DHFoundation OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B1E411AF8D453004893C4 /* Debug */,
+				A50B1E421AF8D453004893C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B1E431AF8D453004893C4 /* Build configuration list for PBXNativeTarget "DHFoundation OS X Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B1E441AF8D453004893C4 /* Debug */,
+				A50B1E451AF8D453004893C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B1E5E1AF8D46B004893C4 /* Build configuration list for PBXNativeTarget "DHFoundation iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B1E5F1AF8D46B004893C4 /* Debug */,
+				A50B1E601AF8D46B004893C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B1E611AF8D46B004893C4 /* Build configuration list for PBXNativeTarget "DHFoundation iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B1E621AF8D46B004893C4 /* Debug */,
+				A50B1E631AF8D46B004893C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51D31731AF83637000624AD /* Build configuration list for PBXProject "DHFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51D318D1AF83637000624AD /* Debug */,
+				A51D318E1AF83637000624AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A51D31701AF83637000624AD /* Project object */;
+}
